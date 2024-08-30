@@ -1,6 +1,6 @@
 import { BsFillPersonFill, BsFillTelephoneFill } from "react-icons/bs";
 
-import css from "../Contact/Contact.module.css";
+import css from "./Contact.module.css";
 
 export default function Contact({ data: { id, name, number }, onDelete }) {
   return (
