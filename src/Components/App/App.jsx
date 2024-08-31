@@ -5,7 +5,7 @@ import ContactForm from "../ContactForm/ContactForm";
 
 import { useEffect, useState } from "react";
 
-import "./App.css";
+import "./App.module.css";
 
 export default function App() {
   const [contacts, setContacts] = useState(() => {
